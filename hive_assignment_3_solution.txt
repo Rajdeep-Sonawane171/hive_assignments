@@ -1,6 +1,5 @@
 1) Downloaded the zip file from git. Placed the whole folder into the cloudera server using filezill from local machine.
 2) Copied the 'sales_order_csv' data from linux machine to hdfs by the following command:
-=> hadoop fs -copyFromLocal /home/cloudera/vishwa_hdfs/Hive-Class-main /user/practice/
 
 3) Created the "sales_order_csv" table in hive.
 => create table sales_order_csv
